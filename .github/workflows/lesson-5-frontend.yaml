@@ -36,6 +36,6 @@ jobs:
         working-directory: frontend
     steps:
       - name: ZAP Baseline Scan
-        uses: zaproxy/action-baseline@0.15.0
+        uses: zaproxy/action-baseline@v0.15.0
         with:
           target: 'https://hangryhippo.quantic.host'
