@@ -38,7 +38,7 @@ jobs:
     steps:
       - uses: actions/checkout@v7.0.1
       - run: cypress run --config-file=cypress.config.js
-      - uses: actions/upload-artificat@v4.6.2
+      - uses: actions/upload-artifact@v4.6.2
         if: always()
         with:
           name: cypress-videos
